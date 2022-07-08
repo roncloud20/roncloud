@@ -14,6 +14,8 @@ li {
 }
 
 /* Main CSS */
+
+/* Styling the Header */
 header {
     background-color: gray;
     color: white;
@@ -52,6 +54,19 @@ header > nav > ul > li:hover {
     display: none;
     color: white;
     font-weight: bold;
+}
+
+/* Styling the Banner */
+.banner {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner > img {
+    text-align: center;
+    width: 80%;
+    object-fit: contain;
 }
 
 @media (max-width: 500px) {
