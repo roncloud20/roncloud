@@ -1,12 +1,21 @@
-/* CSS Resets */
-* {box-sizing: border-box;}
-body {padding: 0; margin: 0; font-family: poppins;}
-li {list-style: none;}
-a {text-decoration: none;}
+/* CCS Reset */
+body {
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
 
 /* Main CSS */
 header {
-    background-color: rgb(241, 173, 14);
+    background-color: gray;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -32,7 +41,7 @@ header > nav > ul > li > a {
 }
 
 header > nav > ul > li:hover {
-  background-color: black;
+    background-color: bisque;
 }
 
 #navBtn {
@@ -46,19 +55,15 @@ header > nav > ul > li:hover {
 }
 
 @media (max-width: 500px) {
-    header li {
-        padding: 0;
-
-    }
     .navPanel {
         display: none;
         flex-direction: column;
         justify-content: center;
         position: absolute;
         top: 70px;
-        right: 0px;
-        padding: 0;
+        right: 0;
         width: 100%;
+        /* align-content: stretch; */
         text-align: center;
         background-color: gray;
     }
