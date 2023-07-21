@@ -13,9 +13,11 @@
         <h1>logo</h1>
         <nav>
             <ul class="navPanel active">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="register.php">Sign In</a></li>
             </ul>
             <a href="#" id="navBtn">&#x2261;</a>
         </nav>
